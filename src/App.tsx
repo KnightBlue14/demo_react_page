@@ -1,5 +1,5 @@
 import { useState } from 'react';
-// import ListGroup from './components/ListGroup'
+import ListGroup from './components/ListGroup'
 import Alert from './components/Alert';
 import Button from './components/Button'
 
@@ -14,6 +14,10 @@ function App () {
       const decrement = () => {
         setCount(count - 1);
       };
+      var times = 'times';
+      if (count == 1) {
+        times = 'time'
+      }
 
     function click () {
       console.log('You clicked the button');
@@ -29,7 +33,7 @@ function App () {
       <Button onClick ={() => click()}>Press this button</Button>
       </div>
       <div>
-      <span>You have clicked the button {count} times</span>
+      <span>You have clicked the button {count} {times}</span>
       </div>
       </div>
   )
