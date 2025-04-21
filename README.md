@@ -7,7 +7,7 @@ This project is an example of a very simple webpage built using a combination Re
 
 ## How to use
 
-As opposed to my other projects, this is more intended to serve as a reference, allowing me to quickly check how to set up and build certain functions, as I was only recently introduced to React. I am lso posting it here in case anyone else finds it useful.
+As opposed to my other projects, this is more intended to serve as a reference, allowing me to quickly check how to set up and build certain functions, as I was only recently introduced to React. I am also posting it here in case anyone else finds it useful.
 
 ### Components folder
 Here is where the different React comonents can be stored. They do not have to be here, but it is useful for organisation. Stored here are examples of different tools, including -
